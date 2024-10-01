@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c8bd5f89-9625-426b-b7b9-b93211a13782")
+	(paper "A2")
+	(title_block
+		(title "Projekt elektroinštalácie rodinného domu")
+		(date "2024-05-09")
+		(rev "1")
+		(comment 4 "001-24")
+		(comment 5 "Konanie stavby: 96901 Banská Štiavnica, Belianska 1770/15")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 255.905 187.96) (xy 255.905 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c48baf1-fff1-4f53-858f-3ff375c8c665")
+	)
+	(polyline
+		(pts
+			(xy 499.745 167.64) (xy 499.745 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11eea551-6faf-4745-bdf5-fb450ed83180")
+	)
+	(polyline
+		(pts
+			(xy 550.545 236.22) (xy 550.545 254)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "161eff21-4660-4200-a4ce-368b17263b9e")
+	)
+	(polyline
+		(pts
+			(xy 100.965 101.6) (xy 177.165 101.6)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "19cf21a3-ca69-4afa-9be3-5982f36b287c")
+	)
+	(polyline
+		(pts
+			(xy 499.745 254) (xy 550.545 254)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "1ac7d4cc-2432-4018-b5db-1144545b65d8")
+	)
+	(polyline
+		(pts
+			(xy 255.905 167.64) (xy 240.665 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c65850-adba-4e0c-893e-f348ac468008")
+	)
+	(polyline
+		(pts
+			(xy 117.475 208.28) (xy 497.205 208.28)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "63a37c18-9457-4ece-84c7-2c985ddf078f")
+	)
+	(polyline
+		(pts
+			(xy 499.745 205.74) (xy 100.965 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666870c8-2aed-439f-9e96-f434c544cf13")
+	)
+	(polyline
+		(pts
+			(xy 100.965 101.6) (xy 100.965 307.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "68a6a0d6-b1dd-4568-8acc-4623b37bbb10")
+	)
+	(polyline
+		(pts
+			(xy 177.165 101.6) (xy 456.565 101.6)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "6aeffc4f-1d8d-4451-a5ce-05c00720e6a7")
+	)
+	(polyline
+		(pts
+			(xy 550.545 182.88) (xy 550.545 236.22)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "72080bcf-1ac9-4359-868f-cf07ef806912")
+	)
+	(polyline
+		(pts
+			(xy 255.905 187.96) (xy 240.665 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c307bed-09a2-47dc-b747-1dccfc67ddb3")
+	)
+	(polyline
+		(pts
+			(xy 423.545 307.34) (xy 499.745 307.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "7d7f7552-db1b-4943-bc44-7c584b7600d9")
+	)
+	(polyline
+		(pts
+			(xy 106.045 312.42) (xy 106.045 219.71)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7e5d1849-702f-46ad-8174-d367f188ef2f")
+	)
+	(polyline
+		(pts
+			(xy 499.745 167.64) (xy 499.745 101.6)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "82efee70-2b13-42f2-af72-58b85f5619ec")
+	)
+	(polyline
+		(pts
+			(xy 177.165 101.6) (xy 456.565 101.6)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "8ddafe70-23e5-4271-a056-c5b078bfd513")
+	)
+	(polyline
+		(pts
+			(xy 100.965 101.6) (xy 100.965 307.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "a61a28e1-b415-4cf2-8430-8142fcba979c")
+	)
+	(polyline
+		(pts
+			(xy 456.565 101.6) (xy 499.745 101.6)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "b2727a29-bb6e-4b7d-a9de-c5cb0b6a4b51")
+	)
+	(polyline
+		(pts
+			(xy 100.965 307.34) (xy 423.545 307.34)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "c44476da-35b5-4d56-8c66-d92396e651a3")
+	)
+	(polyline
+		(pts
+			(xy 550.545 167.64) (xy 499.745 167.64)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d01a16e3-8b98-4108-84d0-7fd746837239")
+	)
+	(polyline
+		(pts
+			(xy 499.745 254) (xy 499.745 271.78)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d7f4cef1-6d1c-4e8a-b906-81cf6f2baf75")
+	)
+	(polyline
+		(pts
+			(xy 499.745 307.34) (xy 499.745 271.78)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "da74a1ac-236f-4818-8306-628cd882cad6")
+	)
+	(polyline
+		(pts
+			(xy 550.545 167.64) (xy 550.545 182.88)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "dc3f2650-5ec9-49c5-b4c2-bf5afbc595df")
+	)
+	(polyline
+		(pts
+			(xy 248.285 195.58) (xy 248.285 184.15)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f2ab696a-223a-42a0-b634-1d3c8c60b864")
+	)
+	(polyline
+		(pts
+			(xy 240.665 167.64) (xy 240.665 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9b821b-716d-456c-ad9d-b0c51bd4e543")
+	)
+	(circle
+		(center 248.285 184.15)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01e3e13f-197d-4af9-ae50-2b48430a5f33)
+	)
+	(circle
+		(center 497.205 208.28)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e02bd07-4771-4625-a458-ef808779f255)
+	)
+	(circle
+		(center 497.205 208.28)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 1)
+		)
+		(uuid b05f3b5c-ea5a-4294-9e4c-6ff1f712ceb7)
+	)
+	(arc
+		(start 106.045 219.71)
+		(mid 109.3935 211.6285)
+		(end 117.475 208.28)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c245c0a5-acaa-45a4-bd2c-1635977730dd)
+	)
+	(circle
+		(center 248.285 184.15)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 1)
+		)
+		(uuid c44a547f-8cd8-4d1c-a75b-e266f712710c)
+	)
+	(arc
+		(start 248.275 195.57)
+		(mid 244.5632 204.554)
+		(end 235.585 208.28)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f13e74c8-c80a-4063-86ab-2bf8855c955b)
+	)
+	(text "ZT"
+		(exclude_from_sim no)
+		(at 245.745 181.61 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3014b9b3-8aa8-4810-b628-4b053d81a64d")
+	)
+	(text "FeZnΦ50 "
+		(exclude_from_sim no)
+		(at 365.125 219.71 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2b64719-dc56-44d2-96d7-c00e76cec7a6")
+	)
+	(text "ZT"
+		(exclude_from_sim no)
+		(at 494.665 215.9 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca198f16-a58d-4077-bf05-d0f5d541b0f4")
+	)
+	(sheet
+		(at 71.755 101.6)
+		(size 26.035 205.74)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 255 255 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "723ae91b-11c1-4e23-a950-751ccc7ef6d8")
+		(property "Sheetname" "5.1 Pohľad z boku"
+			(at 71.755 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5.1.kicad_sch"
+			(at 71.755 307.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/362593b6-e4be-4772-9932-140f17ab1c31"
+					(page "9")
+				)
+			)
+		)
+	)
+)

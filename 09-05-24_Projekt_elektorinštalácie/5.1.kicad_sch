@@ -1,0 +1,301 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1168837a-9d21-4328-9a52-bd31752d15bb")
+	(paper "A2")
+	(title_block
+		(title "Projekt elektroinštalácie rodinného domu")
+		(date "2024-05-09")
+		(rev "1")
+		(comment 4 "001-24")
+		(comment 5 "Konanie stavby: 96901 Banská Štiavnica, Belianska 1770/15")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 193.675 50.8) (xy 194.31 51.435)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "20e4c7e1-98d7-4afb-bf33-92f6d2d664c4")
+	)
+	(polyline
+		(pts
+			(xy 336.55 201.93) (xy 301.625 201.93)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "253241b6-fed0-4d41-b0a1-924201eec33d")
+	)
+	(polyline
+		(pts
+			(xy 299.085 205.105) (xy 299.085 379.095)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "253f3881-a603-42f0-b828-861175a295d3")
+	)
+	(polyline
+		(pts
+			(xy 90.17 351.155) (xy 297.18 351.155)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "2712281b-65ad-417d-8182-2ba817bee6a3")
+	)
+	(polyline
+		(pts
+			(xy 90.17 200.025) (xy 50.8 200.025)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "48cc3f10-eb29-4213-9a06-bc3fbde12e47")
+	)
+	(polyline
+		(pts
+			(xy 426.72 316.23) (xy 426.72 200.66)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "573439ed-1ea6-4b38-b149-320c53e3018f")
+	)
+	(polyline
+		(pts
+			(xy 542.29 200.66) (xy 426.72 200.66)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "5ffc04a3-7348-49a5-b458-fadf3491debd")
+	)
+	(polyline
+		(pts
+			(xy 336.55 200.025) (xy 297.18 200.025)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "666f9183-cbf1-423b-be86-1e2376c5d695")
+	)
+	(polyline
+		(pts
+			(xy 552.45 213.36) (xy 449.58 213.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6f6fd29a-3405-40c4-8a11-916c97c398dc")
+	)
+	(polyline
+		(pts
+			(xy 195.58 49.53) (xy 337.82 198.755)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "71c0dc76-6c12-4960-8a31-d25914ba3e3b")
+	)
+	(polyline
+		(pts
+			(xy 558.165 199.39) (xy 426.72 63.5)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "72865dca-8361-4e5e-8632-064ae02d86c8")
+	)
+	(polyline
+		(pts
+			(xy 90.17 200.025) (xy 90.17 351.155)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "75a320dd-c954-4ed5-aab8-86edccbc943d")
+	)
+	(polyline
+		(pts
+			(xy 440.69 222.25) (xy 440.69 316.23)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "78bcdd39-8686-4e10-9374-4caf79ebb719")
+	)
+	(polyline
+		(pts
+			(xy 463.55 118.11) (xy 426.72 79.375)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "7a92dfd5-f717-4913-aa44-15dcba748d69")
+	)
+	(polyline
+		(pts
+			(xy 297.18 200.025) (xy 297.18 351.155)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "963a574c-8785-4d0f-bb2e-cea71798e82b")
+	)
+	(polyline
+		(pts
+			(xy 193.04 51.435) (xy 193.675 50.8)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "97f38fff-c714-4144-b239-43a8f0025e10")
+	)
+	(polyline
+		(pts
+			(xy 195.58 27.94) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ae96201c-69fb-4625-a7a2-2d73bfe12e42")
+	)
+	(polyline
+		(pts
+			(xy 542.29 200.66) (xy 502.92 159.385)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "b0238ec9-fc8d-43c3-bb4e-0eb0bdabe494")
+	)
+	(polyline
+		(pts
+			(xy 336.55 200.025) (xy 194.31 51.435)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "bf2046a9-f792-4d42-a3d9-11778d74494f")
+	)
+	(polyline
+		(pts
+			(xy 50.8 200.025) (xy 193.04 51.435)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d2491a47-e006-4816-80f7-1f021665f1ca")
+	)
+	(polyline
+		(pts
+			(xy 502.92 159.385) (xy 463.55 118.11)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "db121161-02a5-4222-bacd-ac2674277c41")
+	)
+	(circle
+		(center 313.055 196.85)
+		(radius 30.8286)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 20059f7b-6be9-4a27-8abf-293df0d5dac2)
+	)
+	(arc
+		(start 337.82 198.755)
+		(mid 338.2817 200.7783)
+		(end 336.55 201.93)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4124d0d9-0f32-47be-b0d8-331f7d652f4c)
+	)
+	(arc
+		(start 558.165 199.39)
+		(mid 559.7425 208.1869)
+		(end 552.45 213.36)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8cf45cba-87fa-464a-9e2e-551331e8db22)
+	)
+	(arc
+		(start 440.69 222.25)
+		(mid 443.2909 215.9609)
+		(end 449.58 213.36)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a02e8dbb-13b0-4ba3-94e0-915cef086e83)
+	)
+	(arc
+		(start 299.085 205.105)
+		(mid 299.8765 203.1354)
+		(end 301.625 201.93)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b76ce9fb-ca62-460f-bb81-e4106b84e46a)
+	)
+)

@@ -1,0 +1,8725 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "21b3d512-11f6-4471-a7e3-2fe788e19c3f")
+	(paper "A2")
+	(title_block
+		(title "Projekt elektroinštalácie rodinného domu")
+		(date "2024-05-09")
+		(rev "1")
+		(comment 4 "001-24")
+		(comment 5 "Konanie stavby: 96901 Banská Štiavnica, Belianska 1770/15")
+	)
+	(lib_symbols
+		(symbol "Wiring:Bulb_ceiling"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bulb_ceiling_0_1"
+				(circle
+					(center 0 -5.715)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.715) (xy 1.778 -7.493) (xy -1.778 -3.937)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.715) (xy 1.778 -3.937) (xy -1.778 -7.493)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5464 -3.159)
+					(mid 0.0055 -2.1071)
+					(end -2.5386 -3.1512)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Bulb_wall"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 1.27 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bulb_wall_0_1"
+				(circle
+					(center 0 -5.08)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.778 -6.858) (xy -1.778 -3.302)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.778 -3.302) (xy -1.778 -6.858)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Data_outlet"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "XC"
+				(at 5.08 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Data_outlet_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.0002 -0.0002) (xy 0.0002 -2.5402) (xy 0.0002 -1.2702)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.0002 -2.5402) (xy 2.5402 -2.5402) (xy -2.5398 -2.5402) (xy -1.2698 -2.5402)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Fan"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_0_1"
+				(circle
+					(center -0.9652 -5.0292)
+					(radius 0.898)
+					(stroke
+						(width 0.3)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.9398 -5.0292)
+					(radius 0.898)
+					(stroke
+						(width 0.3)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:HR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HR_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 3.81 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.445 1.27)
+					(end 3.175 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Outlet"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 5.08 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Outlet_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid -1.7961 -3.2839)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54) (xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 1.7961 -3.2839)
+					(end 0 -2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Outlet_3P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Outlet_3P_0_1"
+				(arc
+					(start 0.0002 -2.5402)
+					(mid -1.7959 -3.2841)
+					(end -2.5398 -5.0802)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.0002 -0.0002) (xy 0.0002 -2.5402) (xy 0.0002 -1.2702)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.0002 -2.5402) (xy 2.5402 -2.5402) (xy -2.5398 -2.5402) (xy -1.2698 -2.5402)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5402 -5.0802)
+					(mid 1.7963 -3.2841)
+					(end 0.0002 -2.5402)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "3P"
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+							(color 0 255 0 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:PE"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "~"
+				(at 0 2.159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PE_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -0.381) (xy 0.635 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -0.762) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.7825)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Switch_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_1_0_1"
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 3.175 3.175) (xy 3.81 3.81) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+							(color 0 0 255 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Switch_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_5_0_1"
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -3.175 3.175) (xy -3.81 3.81) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 3.175 3.175) (xy 3.81 3.81) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "5"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+							(color 0 0 255 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Wiring:Switch_6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_6_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.175 -3.175) (xy -3.81 -3.81) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 3.175 3.175) (xy 3.81 3.81) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "6"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+							(color 0 0 255 1)
+						)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 144.78 93.98) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00165733-9632-4513-9599-6a4943617837")
+	)
+	(polyline
+		(pts
+			(xy 520.7 249.555) (xy 519.43 250.825)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "0174d8f9-9ff2-412d-aa88-9625581e9068")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 363.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0269527a-92cc-4e1d-b426-478ae952aa3e")
+	)
+	(polyline
+		(pts
+			(xy 533.4 167.64) (xy 533.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fdd6a8-d263-4cad-beb0-8cf7825253ea")
+	)
+	(polyline
+		(pts
+			(xy 307.34 148.59) (xy 255.27 148.59)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "083c7fc9-1ab0-48d8-b4b8-e95fb8808619")
+	)
+	(polyline
+		(pts
+			(xy 474.98 170.18) (xy 474.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089f4a94-fc82-4805-b234-9ab43aaea18a")
+	)
+	(polyline
+		(pts
+			(xy 412.75 158.75) (xy 417.83 158.75)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "099d1759-5e3f-4ef3-98b9-af0703232789")
+	)
+	(polyline
+		(pts
+			(xy 528.32 220.98) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1e2aef-37a3-4f95-a866-c26a92ac2796")
+	)
+	(polyline
+		(pts
+			(xy 459.74 86.36) (xy 485.14 86.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "0a36850a-3601-4b5e-93ba-5bb1594a35bd")
+	)
+	(polyline
+		(pts
+			(xy 345.44 152.4) (xy 337.82 152.4)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "0afbe876-938e-480f-b7a7-ea359461696e")
+	)
+	(polyline
+		(pts
+			(xy 210.82 177.8) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8947a7-d274-4252-a604-be63dbf70a54")
+	)
+	(polyline
+		(pts
+			(xy 485.14 152.4) (xy 485.14 86.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "0d5e5ec5-4bb8-4a0c-9653-b382ba4df0a0")
+	)
+	(polyline
+		(pts
+			(xy 255.27 237.49) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "0d636e25-186e-4402-a98e-9e3e3882c5fa")
+	)
+	(polyline
+		(pts
+			(xy 289.56 281.94) (xy 289.56 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6b6367-f84c-403a-b0e4-da43982e2651")
+	)
+	(polyline
+		(pts
+			(xy 528.32 231.14) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8abe15-9d0a-4d4e-b388-d468e7fa7dc7")
+	)
+	(polyline
+		(pts
+			(xy 520.7 249.555) (xy 520.7 233.68)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "0dd799bd-a0f5-4141-a71e-e775afc2a279")
+	)
+	(polyline
+		(pts
+			(xy 532.13 191.77) (xy 532.13 208.28)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "0eca8fd1-19ed-4d6d-9799-fbb455f7083b")
+	)
+	(polyline
+		(pts
+			(xy 226.06 234.95) (xy 222.25 234.95)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "0fa47061-4c2d-462e-95c2-679dadc7fa06")
+	)
+	(polyline
+		(pts
+			(xy 485.14 231.14) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109b5d5e-14a4-4418-a965-a929e4b0faf4")
+	)
+	(polyline
+		(pts
+			(xy 162.56 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1102a45a-5450-4619-bf64-56779bc29689")
+	)
+	(polyline
+		(pts
+			(xy 485.14 195.58) (xy 474.98 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1155e414-867b-49d5-827a-2be41570f249")
+	)
+	(polyline
+		(pts
+			(xy 281.94 292.1) (xy 289.56 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "119d83f9-83b5-4ee0-a370-007c4e87c654")
+	)
+	(polyline
+		(pts
+			(xy 369.57 287.02) (xy 369.57 281.94)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "12d0dd33-1a34-4a7f-9dd5-746ff9c24bbf")
+	)
+	(polyline
+		(pts
+			(xy 214.63 91.44) (xy 394.97 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "1379c492-ffc2-4a11-9245-9670b04d5914")
+	)
+	(polyline
+		(pts
+			(xy 459.74 88.9) (xy 441.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1609accb-851e-400b-b4c6-60a457877bdf")
+	)
+	(polyline
+		(pts
+			(xy 196.85 90.17) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "163fa2c6-8eb3-4d20-853c-0a264a1513c3")
+	)
+	(polyline
+		(pts
+			(xy 317.5 287.02) (xy 289.56 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b01c50-1231-4036-afca-971141fb92a6")
+	)
+	(polyline
+		(pts
+			(xy 393.7 247.65) (xy 429.26 247.65)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "17264a28-1995-47b8-933d-c13c7fc12780")
+	)
+	(polyline
+		(pts
+			(xy 474.98 195.58) (xy 474.98 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e031d8-8692-4eb5-8234-47d08166a31f")
+	)
+	(polyline
+		(pts
+			(xy 459.74 91.44) (xy 441.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19189d3a-75ee-4349-8b66-478faef7853b")
+	)
+	(polyline
+		(pts
+			(xy 518.16 231.14) (xy 518.16 157.48)
+		)
+		(stroke
+			(width 0.8)
+			(type dash)
+			(color 255 0 0 1)
+		)
+		(uuid "1bc5c77e-23a6-4e0b-9596-6dcc78058b39")
+	)
+	(polyline
+		(pts
+			(xy 506.73 157.48) (xy 506.73 214.63)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "1c07f548-bf61-45f0-8c47-bb680b1ea785")
+	)
+	(polyline
+		(pts
+			(xy 222.25 162.56) (xy 245.11 162.56)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "1c18bd10-d075-487d-8365-90f2528729d5")
+	)
+	(polyline
+		(pts
+			(xy 139.7 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c342aa8-021a-4739-ae2b-055d248720d3")
+	)
+	(polyline
+		(pts
+			(xy 405.13 153.67) (xy 412.75 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "1d177d13-01e2-443d-b48d-48d5715806fb")
+	)
+	(polyline
+		(pts
+			(xy 191.77 245.11) (xy 191.77 182.88)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "1df01622-9239-44af-9dff-dd3f49e04499")
+	)
+	(polyline
+		(pts
+			(xy 457.2 207.01) (xy 457.2 210.82)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "1df874bd-0c52-491c-a4d8-fffb9dc227f3")
+	)
+	(polyline
+		(pts
+			(xy 532.13 208.28) (xy 535.94 208.28)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "1f2da889-e518-4095-9a79-7cdfd698f5d7")
+	)
+	(polyline
+		(pts
+			(xy 173.99 91.44) (xy 173.99 148.59)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "1f5155ea-7ccd-4f1c-8fc0-d07ade7cb148")
+	)
+	(polyline
+		(pts
+			(xy 330.2 134.62) (xy 355.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f72bd0e-52ee-48a7-8451-876ba7f24262")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 485.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbd8a7e-b6c1-49bf-a83a-f4600ff4ab09")
+	)
+	(polyline
+		(pts
+			(xy 340.36 149.86) (xy 337.82 152.4)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "2023984e-0582-4129-b632-457d7e2afd4b")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 378.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203ad98f-d230-4ae8-8c50-6deb4c1eaa2e")
+	)
+	(polyline
+		(pts
+			(xy 170.18 144.78) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f1e81b-a0a5-49ed-bd1a-e9f60b202230")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21744c12-91c1-4a64-9e71-ea71ad357771")
+	)
+	(polyline
+		(pts
+			(xy 491.49 157.48) (xy 491.49 170.18)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "23a6d504-661f-4413-882f-40249aa1cf92")
+	)
+	(polyline
+		(pts
+			(xy 218.44 152.4) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23de0a02-1ccf-4d98-93ff-a843f24812a5")
+	)
+	(polyline
+		(pts
+			(xy 520.7 249.555) (xy 521.97 250.825)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "241726e4-100d-4227-a5d0-65ddc09a20dc")
+	)
+	(polyline
+		(pts
+			(xy 523.24 231.14) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b0cb57-ca3c-493a-bdc0-f7d993b05750")
+	)
+	(polyline
+		(pts
+			(xy 429.26 224.79) (xy 429.26 264.16)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "24e68935-3621-436a-8d66-f32b53c925c3")
+	)
+	(polyline
+		(pts
+			(xy 218.44 152.4) (xy 218.44 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2506795f-8585-4452-9cdf-9261cbd8886e")
+	)
+	(polyline
+		(pts
+			(xy 210.82 281.94) (xy 210.82 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27272c23-93eb-4e91-9087-54327d6d56a4")
+	)
+	(polyline
+		(pts
+			(xy 191.77 182.88) (xy 127 182.88)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "27c65e75-7ba5-4855-9497-1dfdf9f70dfb")
+	)
+	(polyline
+		(pts
+			(xy 91.44 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "27e1fc6d-74ea-48ae-b2bd-1ce2e7752b18")
+	)
+	(polyline
+		(pts
+			(xy 439.42 210.82) (xy 474.98 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1a1ae4-f98e-4ec4-848b-809058eda0d7")
+	)
+	(polyline
+		(pts
+			(xy 181.61 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3bdc7f-0fc7-479a-82de-18abfafa872d")
+	)
+	(polyline
+		(pts
+			(xy 535.94 220.98) (xy 535.94 238.76)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "2a8ad4ba-fe85-4ed9-b601-5e5bbdb4ef1b")
+	)
+	(polyline
+		(pts
+			(xy 449.58 158.75) (xy 449.58 179.07)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "2a91019a-7b68-4467-9986-510f60a6c429")
+	)
+	(polyline
+		(pts
+			(xy 96.52 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa8cf2f-ff6b-4c02-9e10-dea1799a5507")
+	)
+	(polyline
+		(pts
+			(xy 480.06 234.95) (xy 518.16 234.95)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "2bf1e48e-1795-4815-a831-1930dc818f8f")
+	)
+	(polyline
+		(pts
+			(xy 337.82 96.52) (xy 337.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbc4d25-269c-41b4-96f0-e0be9dc886d1")
+	)
+	(polyline
+		(pts
+			(xy 393.7 92.71) (xy 396.24 90.17)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "2e5a6e46-bfd7-47d1-9116-2942f42d67bf")
+	)
+	(polyline
+		(pts
+			(xy 528.32 185.42) (xy 528.32 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eddbe07-05c0-445d-8256-00b7c20bc9f3")
+	)
+	(polyline
+		(pts
+			(xy 96.52 96.52) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef4ce98-b58a-40f6-98ab-cd377dd4efb7")
+	)
+	(polyline
+		(pts
+			(xy 381 162.56) (xy 383.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b05851-733e-47ea-8751-39d3ec06ae76")
+	)
+	(polyline
+		(pts
+			(xy 196.85 92.71) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "33dd0552-7135-4d56-a21f-efdc3e4811fa")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 378.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d10d1b-13f3-4215-a804-ef63dbdb47cb")
+	)
+	(polyline
+		(pts
+			(xy 434.34 162.56) (xy 408.94 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3743f7bc-096e-4cbd-aadb-3dd0bdceacc3")
+	)
+	(polyline
+		(pts
+			(xy 281.94 281.94) (xy 226.06 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3773fed5-bc9a-4a96-88af-c3c207a0e5a1")
+	)
+	(polyline
+		(pts
+			(xy 184.15 100.33) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "39d2a6e0-26d8-4579-9cbf-8ca35e40424f")
+	)
+	(polyline
+		(pts
+			(xy 474.98 256.54) (xy 477.52 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf4521f-b711-467e-b163-bf098f8b4b15")
+	)
+	(polyline
+		(pts
+			(xy 139.7 96.52) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "3cfa73e2-caeb-44d4-a101-49abd0ef9fcb")
+	)
+	(polyline
+		(pts
+			(xy 555.625 248.285) (xy 563.245 248.285)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "3e5b3de3-b2bc-48ea-99fb-301238aa7c2c")
+	)
+	(polyline
+		(pts
+			(xy 96.52 152.4) (xy 96.52 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6edc32-927e-4a52-b85e-4b378a180f26")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea930a4-9a51-4563-9f23-acbe6594ce55")
+	)
+	(polyline
+		(pts
+			(xy 485.14 162.56) (xy 485.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f11a0da-a32b-4e72-9125-555da6e6ec55")
+	)
+	(polyline
+		(pts
+			(xy 97.79 280.67) (xy 97.79 153.67)
+		)
+		(stroke
+			(width 0.8)
+			(type dash)
+			(color 255 0 0 1)
+		)
+		(uuid "3f1c7147-7c9d-4191-9326-8d7f43294af7")
+	)
+	(polyline
+		(pts
+			(xy 97.79 153.67) (xy 181.61 153.67)
+		)
+		(stroke
+			(width 0.8)
+			(type dash)
+			(color 255 0 0 1)
+		)
+		(uuid "3f3b7c0d-1c97-40ad-a314-16eaccb955b5")
+	)
+	(polyline
+		(pts
+			(xy 530.86 167.64) (xy 530.86 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f56b5c6-8d14-42f5-a44e-d4372ae0cdd2")
+	)
+	(polyline
+		(pts
+			(xy 162.56 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40417081-722b-4bd9-849c-c5fca5225fa8")
+	)
+	(polyline
+		(pts
+			(xy 439.42 210.82) (xy 474.98 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dab874-414c-4401-8584-a8679b320d78")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e3127b-f324-4c0e-aeb7-8ea7b53e9f69")
+	)
+	(polyline
+		(pts
+			(xy 162.56 86.36) (xy 441.96 86.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "41cf1f22-479c-4edd-a38b-3aa7b55a6a33")
+	)
+	(polyline
+		(pts
+			(xy 226.06 281.94) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fef83e-eeb8-4484-86b6-5084e53ffcf2")
+	)
+	(polyline
+		(pts
+			(xy 411.48 281.94) (xy 474.98 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4379b330-c00d-47cc-b449-9fefe30cffc9")
+	)
+	(polyline
+		(pts
+			(xy 502.92 220.98) (xy 528.32 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c5c279-8640-4901-a30e-6ab4ac397970")
+	)
+	(polyline
+		(pts
+			(xy 559.435 231.775) (xy 559.435 248.285)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "45847fa9-15d1-4b19-85e9-b4bf79e6b502")
+	)
+	(polyline
+		(pts
+			(xy 408.94 287.02) (xy 381 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4733e630-8a74-45ab-b31f-dd7285d0f898")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473b697b-ac53-45dd-8c35-db9c70483479")
+	)
+	(polyline
+		(pts
+			(xy 474.98 162.56) (xy 459.74 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b88df0-fcce-47da-8e2c-aa4b76b4bef3")
+	)
+	(polyline
+		(pts
+			(xy 474.98 256.54) (xy 477.52 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a35dc47-5b57-448a-9072-c30a48f6853e")
+	)
+	(polyline
+		(pts
+			(xy 412.75 91.44) (xy 412.75 156.21)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "4a4e0cc6-1957-42db-aff0-bdeb8e719b92")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 528.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac7d517-2fe4-42c4-8070-be1dd62018e7")
+	)
+	(polyline
+		(pts
+			(xy 485.14 231.14) (xy 485.14 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1dbe3b-cf3d-4fba-8057-f3d87f60f044")
+	)
+	(polyline
+		(pts
+			(xy 281.94 281.94) (xy 289.56 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5e17af-0c94-44c2-a13a-33a9934d507d")
+	)
+	(polyline
+		(pts
+			(xy 173.99 148.59) (xy 91.44 148.59)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "4d73fe42-7bf6-4db4-a6ee-955f112cd6b3")
+	)
+	(polyline
+		(pts
+			(xy 317.5 292.1) (xy 381 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "4da84495-c4c7-4589-a2fa-2e32f3a33888")
+	)
+	(polyline
+		(pts
+			(xy 218.44 281.94) (xy 210.82 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da883ed-5c2b-44a7-b10e-5dc3fd6183fc")
+	)
+	(polyline
+		(pts
+			(xy 127 176.53) (xy 127 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "4dc80e8f-cdd2-4a76-be29-261b1af129fa")
+	)
+	(polyline
+		(pts
+			(xy 381 96.52) (xy 381 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8ed592-d63c-43d4-bc86-54c6f2d9272a")
+	)
+	(polyline
+		(pts
+			(xy 340.36 154.94) (xy 337.82 152.4)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "50aa54e4-c3db-42ff-a6d4-e5e385e3685c")
+	)
+	(polyline
+		(pts
+			(xy 119.38 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "510d1d78-4db9-4c31-82a4-56c3a2ffea06")
+	)
+	(polyline
+		(pts
+			(xy 393.7 90.17) (xy 396.24 92.71)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "518c3eb1-2bd9-41d1-93cf-1e15a4b12be1")
+	)
+	(polyline
+		(pts
+			(xy 91.44 138.43) (xy 104.14 138.43)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "54ad9976-e1a3-43ed-89a6-5a15af36d467")
+	)
+	(polyline
+		(pts
+			(xy 337.82 134.62) (xy 337.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d85beb-0954-4be6-b8e8-32bc643feebc")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 528.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5673eb09-606f-4286-b1f7-b7adb7d38b0d")
+	)
+	(polyline
+		(pts
+			(xy 241.3 172.72) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c56c36-71f0-4c57-ac6e-58711787bc98")
+	)
+	(polyline
+		(pts
+			(xy 378.46 162.56) (xy 378.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4226bb-7fef-421a-a9c4-4857eddca38e")
+	)
+	(polyline
+		(pts
+			(xy 474.98 274.32) (xy 477.52 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9d6711-dc6a-4862-8af7-99b4349d95d0")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b193070-5c35-404d-b8b0-0eccc9245ada")
+	)
+	(polyline
+		(pts
+			(xy 485.14 231.14) (xy 514.35 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b654ac7-efa6-4b08-bfe1-bc0da14f196f")
+	)
+	(polyline
+		(pts
+			(xy 234.95 91.44) (xy 234.95 101.6)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "5b87f1ef-bb94-45c7-97e6-eea48442c044")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 149.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdce49e-8dda-432c-8c67-b7a17295c9f6")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfaa585-7ac1-4c3f-9f8f-d5e883d3832c")
+	)
+	(polyline
+		(pts
+			(xy 210.82 152.4) (xy 210.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d246a24-bd4d-402a-a30e-61e4dc7d1044")
+	)
+	(polyline
+		(pts
+			(xy 378.46 170.18) (xy 330.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4d48d3-5daa-48ee-b8d4-04102f4d7783")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 485.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e619976-aac4-4a6b-b0af-f6413549cbb5")
+	)
+	(polyline
+		(pts
+			(xy 408.94 287.02) (xy 396.24 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7d2d44-768c-493d-b946-578a84cf74fa")
+	)
+	(polyline
+		(pts
+			(xy 452.12 207.01) (xy 480.06 207.01)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "5f18b197-9d22-4a36-bb4e-197aed1915b9")
+	)
+	(polyline
+		(pts
+			(xy 210.82 144.78) (xy 218.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc7658d-e2e7-4949-b1ac-e3dec272c7e9")
+	)
+	(polyline
+		(pts
+			(xy 494.03 157.48) (xy 494.03 162.56)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "605939ea-ca10-41d0-bfb5-135d14c5f2d9")
+	)
+	(polyline
+		(pts
+			(xy 162.56 96.52) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a58844-dcce-4e1d-844a-1ecddd56d1ea")
+	)
+	(polyline
+		(pts
+			(xy 381 281.94) (xy 381 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611762e5-8503-4767-950b-61c4d991b167")
+	)
+	(polyline
+		(pts
+			(xy 139.7 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612ff6ff-7e5d-4b2b-b00f-3eaf0e83247e")
+	)
+	(polyline
+		(pts
+			(xy 524.51 157.48) (xy 518.16 157.48)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "622ad14f-795f-4ab8-b938-3613b511d33d")
+	)
+	(polyline
+		(pts
+			(xy 485.14 292.1) (xy 485.14 274.32)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "6237e0c1-553e-41d1-ae7a-95824e25ca70")
+	)
+	(polyline
+		(pts
+			(xy 408.94 287.02) (xy 381 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ac225d-4506-4213-a6c5-afffbaa5b0d6")
+	)
+	(polyline
+		(pts
+			(xy 474.98 96.52) (xy 459.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64167744-6a56-4d42-831a-317d2cee8d13")
+	)
+	(polyline
+		(pts
+			(xy 210.82 287.02) (xy 182.88 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657f1caf-d3c3-4e12-bb6c-0fd9050c3aea")
+	)
+	(polyline
+		(pts
+			(xy 162.56 93.98) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6606dc79-1983-4d61-8eb8-6d593a30156b")
+	)
+	(polyline
+		(pts
+			(xy 468.63 158.75) (xy 468.63 165.1)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "6abab27c-7029-42ab-bee9-e827f392c1d1")
+	)
+	(polyline
+		(pts
+			(xy 412.75 156.21) (xy 412.75 158.75)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "6b313255-e915-4bc8-b4f8-dd66a76e62d7")
+	)
+	(polyline
+		(pts
+			(xy 354.33 287.02) (xy 354.33 281.94)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "6b41bed8-862d-4ca7-9a71-e53b463ee516")
+	)
+	(polyline
+		(pts
+			(xy 307.34 237.49) (xy 307.34 148.59)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "6b8b499e-da3c-4214-a85e-9039dd37d0e8")
+	)
+	(polyline
+		(pts
+			(xy 91.44 148.59) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "6c74e93c-208f-47d8-ba71-b8288e2f3bfc")
+	)
+	(polyline
+		(pts
+			(xy 179.07 154.94) (xy 179.07 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "6c7b2f51-d776-430c-bf8a-cad8d3ca623e")
+	)
+	(polyline
+		(pts
+			(xy 317.5 281.94) (xy 381 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d068ea5-39cb-45a2-9d05-b6c8a1121a0d")
+	)
+	(polyline
+		(pts
+			(xy 144.78 93.98) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de70ef3-07fd-4977-8dc4-899f9e18dbe8")
+	)
+	(polyline
+		(pts
+			(xy 170.18 144.78) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0ef5cf-a79b-4c68-bcd4-6923295264d3")
+	)
+	(polyline
+		(pts
+			(xy 274.32 287.02) (xy 274.32 281.94)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "6eef79ff-ffe6-45ce-98b7-937847cc9463")
+	)
+	(polyline
+		(pts
+			(xy 408.94 292.1) (xy 485.14 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "70a45350-9b61-4a76-83a7-1f11da91dabf")
+	)
+	(polyline
+		(pts
+			(xy 198.12 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "7108b06d-75d2-401f-a04d-08a469628bc3")
+	)
+	(polyline
+		(pts
+			(xy 485.14 238.76) (xy 485.14 256.54)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "7113af68-2cf7-4c05-adbb-15a75e79aa17")
+	)
+	(polyline
+		(pts
+			(xy 394.97 91.44) (xy 394.97 125.73)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "72302e33-b4b5-4f8a-9f01-f8f83ea302d1")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a0bb42-0633-41b5-ae9c-85c5c30d94ce")
+	)
+	(polyline
+		(pts
+			(xy 119.38 118.11) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "72f6e67d-e50a-4da8-a8a7-3407df1c7ea8")
+	)
+	(polyline
+		(pts
+			(xy 474.98 281.94) (xy 474.98 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7458ef20-2ccb-4448-9814-c47047f96b04")
+	)
+	(polyline
+		(pts
+			(xy 480.06 256.54) (xy 480.06 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751c633d-dfe1-4be1-bbbe-3b710f8e8820")
+	)
+	(polyline
+		(pts
+			(xy 524.51 157.48) (xy 532.13 157.48)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "772a3995-a1af-4ad1-98ed-13515d288206")
+	)
+	(polyline
+		(pts
+			(xy 210.82 152.4) (xy 210.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78113bba-8369-4dbf-9dd7-811b6096a761")
+	)
+	(polyline
+		(pts
+			(xy 177.8 142.24) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d55c75-56fa-41d6-9115-a67005361b89")
+	)
+	(polyline
+		(pts
+			(xy 86.36 86.36) (xy 86.36 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "790501eb-5d69-4897-854b-b78408ce8587")
+	)
+	(polyline
+		(pts
+			(xy 535.94 185.42) (xy 535.94 195.58)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "792081c0-c15f-435a-ad23-7a1ceb6a4bf0")
+	)
+	(polyline
+		(pts
+			(xy 477.52 195.58) (xy 452.12 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794c9056-917b-4dfd-ac32-5e656dc11664")
+	)
+	(polyline
+		(pts
+			(xy 502.92 220.98) (xy 528.32 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ab6f39-ce85-408f-a945-575c7761e789")
+	)
+	(polyline
+		(pts
+			(xy 474.98 238.76) (xy 480.06 238.76)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "7a56c7cc-1f5b-4b66-b2cb-6f617c0274ff")
+	)
+	(polyline
+		(pts
+			(xy 226.06 152.4) (xy 226.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5a546b-a6b5-4282-9193-9a2abf764f74")
+	)
+	(polyline
+		(pts
+			(xy 532.13 191.77) (xy 532.13 191.77)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "7c9ae6ff-a8cd-4db3-acc3-126379cae816")
+	)
+	(polyline
+		(pts
+			(xy 345.44 134.62) (xy 345.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca7001f-d4e0-45ce-b67c-c5eb3885ff3e")
+	)
+	(polyline
+		(pts
+			(xy 383.54 162.56) (xy 383.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb586e3-37df-45b2-a360-dedceddb58da")
+	)
+	(polyline
+		(pts
+			(xy 162.56 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbbb633-713e-463f-9b95-ac1b1ae896fc")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 528.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803a8f64-23af-441e-83d2-171a9084f0f7")
+	)
+	(polyline
+		(pts
+			(xy 167.64 148.59) (xy 173.99 148.59)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "80900ab8-ff26-4075-860b-072aad8e6b63")
+	)
+	(polyline
+		(pts
+			(xy 411.48 281.94) (xy 408.94 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fa1c2d-7fdf-474e-8730-742332c0438a")
+	)
+	(polyline
+		(pts
+			(xy 162.56 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83603f76-7e4c-476c-8ebe-7af320776a4a")
+	)
+	(polyline
+		(pts
+			(xy 408.94 96.52) (xy 408.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84222b17-0020-4d31-91bd-3f1973061877")
+	)
+	(polyline
+		(pts
+			(xy 459.74 158.75) (xy 459.74 165.1)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "844d26ff-2b2c-40a2-9028-d1c92c82f9b5")
+	)
+	(polyline
+		(pts
+			(xy 472.44 252.73) (xy 480.06 252.73)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "876e5997-00f9-4bd8-8d39-abe7b3152c11")
+	)
+	(polyline
+		(pts
+			(xy 485.14 157.48) (xy 485.14 158.75)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "87b6b11b-36e3-4761-8380-42afa30b516b")
+	)
+	(polyline
+		(pts
+			(xy 96.52 152.4) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca9ed3-3d9e-4bdc-9d8d-b105e3f47d12")
+	)
+	(polyline
+		(pts
+			(xy 408.94 129.54) (xy 412.75 129.54)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "8a06987a-bd28-4ec7-b4a1-238e8f9f0a58")
+	)
+	(polyline
+		(pts
+			(xy 411.48 281.94) (xy 474.98 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad9fe9c-7471-4814-89a9-0b0fb5623751")
+	)
+	(polyline
+		(pts
+			(xy 222.25 287.02) (xy 227.33 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "8af4cd74-e5e3-4655-956f-c6f16b1d3895")
+	)
+	(polyline
+		(pts
+			(xy 96.52 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca6e21c-5ff4-48e8-a40d-683020b13183")
+	)
+	(polyline
+		(pts
+			(xy 170.18 154.94) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "8d3cf2ce-4c2d-4b42-8f0a-a26c1914621d")
+	)
+	(polyline
+		(pts
+			(xy 535.94 152.4) (xy 535.94 167.64)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "8e275196-645f-4a1d-b12d-e9aead736531")
+	)
+	(polyline
+		(pts
+			(xy 317.5 289.56) (xy 289.56 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4c457a-5249-46e2-b81c-40a0eb122085")
+	)
+	(polyline
+		(pts
+			(xy 556.895 249.555) (xy 561.975 249.555)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "8ea28556-8939-44c8-a178-880ed984b77b")
+	)
+	(polyline
+		(pts
+			(xy 559.435 231.775) (xy 521.97 232.41)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "8f902272-301b-4688-8def-c698e63d9bda")
+	)
+	(polyline
+		(pts
+			(xy 182.88 281.94) (xy 182.88 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fb864e-fa2b-4d07-bf08-76a4d4f0ae0d")
+	)
+	(polyline
+		(pts
+			(xy 342.9 114.3) (xy 345.44 116.84)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "932e1b26-cbc3-41a0-8b5e-2c6f8285755c")
+	)
+	(polyline
+		(pts
+			(xy 485.14 170.18) (xy 474.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9365b437-e778-4a0c-bb9e-66d44df429b9")
+	)
+	(polyline
+		(pts
+			(xy 474.98 281.94) (xy 474.98 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ec550d-2995-47b5-8fb3-2db2a5669470")
+	)
+	(polyline
+		(pts
+			(xy 222.25 287.02) (xy 222.25 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "99d812fd-43ed-473f-a846-a52b100779ba")
+	)
+	(polyline
+		(pts
+			(xy 535.94 152.4) (xy 485.14 152.4)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "9a07909e-665a-4379-b8e1-6204c441848d")
+	)
+	(polyline
+		(pts
+			(xy 459.74 154.94) (xy 474.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a60e6b4-48da-461d-9043-d9be41ef41ac")
+	)
+	(polyline
+		(pts
+			(xy 429.26 158.75) (xy 429.26 165.1)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "9b35b7b7-3cc7-4de7-a2af-98636c468fee")
+	)
+	(polyline
+		(pts
+			(xy 218.44 281.94) (xy 210.82 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b445bc4-47c5-4b94-9d9f-7a3bf9adbf60")
+	)
+	(polyline
+		(pts
+			(xy 218.44 119.38) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7208b0-3d42-4434-8d71-b18b0ed4a550")
+	)
+	(polyline
+		(pts
+			(xy 226.06 96.52) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b74a4fe-db0f-4af7-96bf-513d04ceb9b5")
+	)
+	(polyline
+		(pts
+			(xy 378.46 162.56) (xy 378.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcb05c3-cca4-47ac-93ad-d05c4e494e7f")
+	)
+	(polyline
+		(pts
+			(xy 474.98 154.94) (xy 474.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca227a6-02d7-476f-ac84-518646f66c1f")
+	)
+	(polyline
+		(pts
+			(xy 485.14 162.56) (xy 485.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd197db-ceb2-42fc-9cbc-97b63a195c5f")
+	)
+	(polyline
+		(pts
+			(xy 474.98 210.82) (xy 474.98 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4e94c9-bdb1-46fb-a71b-2ce815688129")
+	)
+	(polyline
+		(pts
+			(xy 406.4 160.02) (xy 406.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d50142b-48d4-4dba-99a1-548fe65c8f02")
+	)
+	(polyline
+		(pts
+			(xy 231.14 119.38) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6a9c09-6833-47b8-8292-47f3529e0d65")
+	)
+	(polyline
+		(pts
+			(xy 218.44 152.4) (xy 218.44 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9deac900-b854-4023-8126-5acc2565f836")
+	)
+	(polyline
+		(pts
+			(xy 199.39 92.71) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "9fe3d764-365d-416a-b9f2-96bff1625ac1")
+	)
+	(polyline
+		(pts
+			(xy 394.97 91.44) (xy 412.75 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a0e5c722-cf88-461b-ba41-7f0b98623426")
+	)
+	(polyline
+		(pts
+			(xy 412.75 156.21) (xy 412.75 158.75)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a33e7697-c53f-45ed-a633-bb8be305e388")
+	)
+	(polyline
+		(pts
+			(xy 452.12 207.01) (xy 452.12 264.16)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "a3562897-0f79-4ae9-874d-684a24f2b70c")
+	)
+	(polyline
+		(pts
+			(xy 520.7 157.48) (xy 520.7 162.56)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "a3b2f3b0-d61e-4934-9185-4f824f1947c9")
+	)
+	(polyline
+		(pts
+			(xy 222.25 162.56) (xy 222.25 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a3b90766-f899-40b8-b9f2-7e5b14701364")
+	)
+	(polyline
+		(pts
+			(xy 91.44 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "a4544ac7-9e76-4b63-b694-dfbe0573e785")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 177.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a00c98-152f-4453-809b-e6b26051a735")
+	)
+	(polyline
+		(pts
+			(xy 337.82 116.84) (xy 345.44 116.84)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "a5224828-b478-4b0a-a425-005efdd8049e")
+	)
+	(polyline
+		(pts
+			(xy 524.51 190.5) (xy 532.13 190.5)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "a53e7ecb-7f84-4492-afc0-ebb394800b31")
+	)
+	(polyline
+		(pts
+			(xy 330.2 170.18) (xy 330.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5eae435-514e-4f61-aca4-dedc4d0dce27")
+	)
+	(polyline
+		(pts
+			(xy 330.2 96.52) (xy 378.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f86fa6-c00a-4947-8c5e-ec6ea973c718")
+	)
+	(polyline
+		(pts
+			(xy 412.75 158.75) (xy 485.14 158.75)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "a7c502c3-c1db-402b-996f-f80c38eae9a9")
+	)
+	(polyline
+		(pts
+			(xy 170.18 96.52) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e58909-81ae-4f44-8e91-984bb845ef1d")
+	)
+	(polyline
+		(pts
+			(xy 480.06 256.54) (xy 480.06 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a801ee03-1139-46f4-871a-b0be12feaa42")
+	)
+	(polyline
+		(pts
+			(xy 317.5 281.94) (xy 317.5 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8721fb4-6fd2-46c5-9d0d-ebba6b0397b7")
+	)
+	(polyline
+		(pts
+			(xy 434.34 162.56) (xy 434.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8951e50-d5bc-4e9e-9f38-415a9e05763a")
+	)
+	(polyline
+		(pts
+			(xy 408.94 160.02) (xy 406.4 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9800459-61db-4c1e-ab95-a1af984927cc")
+	)
+	(polyline
+		(pts
+			(xy 127 245.11) (xy 127 176.53)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "aa77a6e2-ea26-4d47-bcdd-3ac8fa7e1a29")
+	)
+	(polyline
+		(pts
+			(xy 482.6 256.54) (xy 482.6 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5480a2-8882-4e6d-bd81-90d5484b644c")
+	)
+	(polyline
+		(pts
+			(xy 528.32 231.14) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab698ec0-7703-43ed-bb37-5972b7ead129")
+	)
+	(polyline
+		(pts
+			(xy 439.42 203.2) (xy 439.42 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab97bb1e-4504-4870-96fc-f96f1f8fc4c3")
+	)
+	(polyline
+		(pts
+			(xy 218.44 119.38) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acec95a6-bf8b-42ec-b9ee-295d1726f4db")
+	)
+	(polyline
+		(pts
+			(xy 222.25 242.57) (xy 226.06 242.57)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "ae7eb54f-9005-4238-bee6-96f82e4de90e")
+	)
+	(polyline
+		(pts
+			(xy 179.07 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "aeabfec7-d333-4157-9b16-c498ad08f9dd")
+	)
+	(polyline
+		(pts
+			(xy 434.34 129.54) (xy 434.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff21fdb-bf88-4190-9031-219c9e15ade5")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 149.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff23a54-8109-4cef-9499-66c3ef1c0500")
+	)
+	(polyline
+		(pts
+			(xy 198.12 91.44) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "b0928e64-abdb-414a-a6fc-69a19cfba0e8")
+	)
+	(polyline
+		(pts
+			(xy 170.18 96.52) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1282a32-7818-4514-b091-1ac928ed16a2")
+	)
+	(polyline
+		(pts
+			(xy 241.3 152.4) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1552704-fb65-45fc-8882-d435b1ae14d6")
+	)
+	(polyline
+		(pts
+			(xy 480.06 245.11) (xy 480.06 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "b1a2bef8-ca34-45ac-969a-32f035f38a0f")
+	)
+	(polyline
+		(pts
+			(xy 482.6 256.54) (xy 482.6 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d7a2ed-e6fd-4b3e-aa5a-f47801365fea")
+	)
+	(polyline
+		(pts
+			(xy 480.06 245.11) (xy 480.06 207.01)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "b2313bbf-e473-4b22-bb60-8050db88950a")
+	)
+	(polyline
+		(pts
+			(xy 345.44 96.52) (xy 345.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a51218-f142-47f4-8cf2-a6b51902a5af")
+	)
+	(polyline
+		(pts
+			(xy 353.06 96.52) (xy 353.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bd03b6-f810-4766-944a-9b4894d821a5")
+	)
+	(polyline
+		(pts
+			(xy 416.56 96.52) (xy 441.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f5329d-bc7a-47ab-988e-07ab7e2c0723")
+	)
+	(polyline
+		(pts
+			(xy 411.48 281.94) (xy 408.94 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43e7033-5ee2-4e85-a0f3-6961479dbbed")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 353.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4df20e8-81b4-4167-a103-b12f3c1c54df")
+	)
+	(polyline
+		(pts
+			(xy 485.14 231.14) (xy 485.14 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fcc1fe-0db6-468d-913e-9c5ba539ec6a")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 181.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a4dadf-80d3-412e-9710-dc93bc35ca92")
+	)
+	(polyline
+		(pts
+			(xy 383.54 160.02) (xy 381 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7837faa-792c-4252-8439-d39ce3d9551a")
+	)
+	(polyline
+		(pts
+			(xy 222.25 287.02) (xy 222.25 149.86)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "ba8c68d0-ef2f-46c7-ac2f-04863d2c71b8")
+	)
+	(polyline
+		(pts
+			(xy 210.82 289.56) (xy 182.88 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb169f15-9b10-42c8-b601-42605c2a7a2f")
+	)
+	(polyline
+		(pts
+			(xy 381 96.52) (xy 408.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb19056d-564c-4412-a1fd-69dd6d9855f3")
+	)
+	(polyline
+		(pts
+			(xy 396.24 92.71) (xy 394.97 91.44)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "bc5d878b-afd3-48da-a135-416de58b1a32")
+	)
+	(polyline
+		(pts
+			(xy 96.52 281.94) (xy 182.88 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcb35cc-1a8f-43fe-adcc-8b65e8117107")
+	)
+	(polyline
+		(pts
+			(xy 162.56 93.98) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf783643-91fe-4c4e-a28f-427875fd16a2")
+	)
+	(polyline
+		(pts
+			(xy 185.42 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5950fbd-3c02-4f04-8111-75fc5011e610")
+	)
+	(polyline
+		(pts
+			(xy 210.82 281.94) (xy 210.82 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7983185-00fe-42da-b9cd-7f775f66dfd9")
+	)
+	(polyline
+		(pts
+			(xy 226.06 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96a5481-533c-4e02-95ce-22dd095a9a90")
+	)
+	(polyline
+		(pts
+			(xy 528.32 162.56) (xy 528.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca18a700-5cb1-4fb9-8625-9ab0c14fa560")
+	)
+	(polyline
+		(pts
+			(xy 210.82 287.02) (xy 182.88 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca32f68a-33aa-4189-ab65-6e210dd2afd4")
+	)
+	(polyline
+		(pts
+			(xy 416.56 154.94) (xy 434.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4a3c56-4f58-42a5-8d5b-02978bb220ea")
+	)
+	(polyline
+		(pts
+			(xy 218.44 259.08) (xy 222.25 259.08)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "cc6a7595-dc86-4bbc-8ddb-ccf209b44d67")
+	)
+	(polyline
+		(pts
+			(xy 185.42 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd340ad6-336e-4ed2-a015-baeaae1ca607")
+	)
+	(polyline
+		(pts
+			(xy 441.96 93.98) (xy 441.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd38aac6-ef44-4769-a7cf-8ecf120c017a")
+	)
+	(polyline
+		(pts
+			(xy 464.82 281.94) (xy 464.82 287.02)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "cda0fd26-4c6f-41c0-b3c0-633ec697ec0d")
+	)
+	(polyline
+		(pts
+			(xy 222.25 287.02) (xy 377.19 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "cf2ec8f4-3f66-43d7-b706-0dbdab49079a")
+	)
+	(polyline
+		(pts
+			(xy 429.26 264.16) (xy 452.12 264.16)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "cfe8ef61-165b-4329-acc5-36d96087b8e0")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 378.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19d97df-593e-4796-ba32-5262947879de")
+	)
+	(polyline
+		(pts
+			(xy 177.8 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ee32b6-5d42-4900-9335-92f4f33e82ff")
+	)
+	(polyline
+		(pts
+			(xy 198.12 132.08) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "d2c072ba-82fc-4a62-b480-83d573846512")
+	)
+	(polyline
+		(pts
+			(xy 408.94 162.56) (xy 406.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d403917e-8053-46de-9f23-87067e02efad")
+	)
+	(polyline
+		(pts
+			(xy 182.88 281.94) (xy 182.88 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d489957a-d946-4a8b-9ace-7952112e3c59")
+	)
+	(polyline
+		(pts
+			(xy 226.06 96.52) (xy 330.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b5762d-4033-4b36-afb6-566e73cf6f4c")
+	)
+	(polyline
+		(pts
+			(xy 528.32 220.98) (xy 528.32 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5febe73-f0d8-4f6d-a281-2087a3dbf92d")
+	)
+	(polyline
+		(pts
+			(xy 459.74 93.98) (xy 459.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72e4e90-756d-4143-ab35-2403c7fa788c")
+	)
+	(polyline
+		(pts
+			(xy 342.9 119.38) (xy 345.44 116.84)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "d7b6fd17-c4f2-435b-a974-b6d989740191")
+	)
+	(polyline
+		(pts
+			(xy 518.16 233.68) (xy 518.16 234.95)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "d805e687-78b7-4ba9-a6ee-e348854a5f7a")
+	)
+	(polyline
+		(pts
+			(xy 422.91 281.94) (xy 422.91 287.02)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "d911bde1-5016-4938-a288-66d12438d467")
+	)
+	(polyline
+		(pts
+			(xy 241.3 172.72) (xy 226.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91de85c-766b-4010-9c89-9b9e0db45e77")
+	)
+	(polyline
+		(pts
+			(xy 474.98 274.32) (xy 477.52 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6daee3-7b36-47a6-88ef-af3ddbe02dc1")
+	)
+	(polyline
+		(pts
+			(xy 474.98 203.2) (xy 439.42 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db814b54-deab-45f5-9c77-79fcc1072efc")
+	)
+	(polyline
+		(pts
+			(xy 485.14 157.48) (xy 518.16 157.48)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "dd7a14f6-c393-41cf-87dc-17d97f4aa852")
+	)
+	(polyline
+		(pts
+			(xy 218.44 175.26) (xy 222.25 175.26)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "de893b9f-994d-407d-8d47-5edb975109a5")
+	)
+	(polyline
+		(pts
+			(xy 408.94 281.94) (xy 408.94 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9b5670-c6f6-4b98-9e01-48c317d0b6bc")
+	)
+	(polyline
+		(pts
+			(xy 86.36 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "deab6f50-6ba6-4a09-828a-8b22c03b3aab")
+	)
+	(polyline
+		(pts
+			(xy 370.84 287.02) (xy 480.06 287.02)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "dec34ebb-bc19-4d8a-9682-760773ce39ca")
+	)
+	(polyline
+		(pts
+			(xy 408.94 289.56) (xy 381 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdf0c17-ba4e-4be1-bbdf-aa1c14ba134c")
+	)
+	(polyline
+		(pts
+			(xy 226.06 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17b4b7f-93e0-450c-9ff9-87a9d2bccba1")
+	)
+	(polyline
+		(pts
+			(xy 222.25 280.67) (xy 97.79 280.67)
+		)
+		(stroke
+			(width 0.8)
+			(type dash)
+			(color 255 0 0 1)
+		)
+		(uuid "e1ad2ef9-6294-4f00-a0ef-a70d23d4493c")
+	)
+	(polyline
+		(pts
+			(xy 532.13 157.48) (xy 532.13 191.77)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "e2858a92-6d1c-4b7c-9e43-5a6147657d59")
+	)
+	(polyline
+		(pts
+			(xy 96.52 281.94) (xy 182.88 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30f44be-446d-4435-b630-0ce5917d04e7")
+	)
+	(polyline
+		(pts
+			(xy 408.94 287.02) (xy 396.24 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3223e9a-3414-47c3-ab3b-5e80e93af18d")
+	)
+	(polyline
+		(pts
+			(xy 177.8 142.24) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e381f01c-2cda-4324-8f8d-12a99d0d0f9a")
+	)
+	(polyline
+		(pts
+			(xy 459.74 162.56) (xy 459.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e435e403-da59-414c-b7d3-76fdcb03268d")
+	)
+	(polyline
+		(pts
+			(xy 353.06 134.62) (xy 363.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e644e4fd-c792-4896-b481-44b6a1f96c06")
+	)
+	(polyline
+		(pts
+			(xy 177.8 142.24) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e767eb8c-1334-4224-953b-22fcec0a1f52")
+	)
+	(polyline
+		(pts
+			(xy 378.46 162.56) (xy 378.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a15d5b-8624-464e-bf74-01ba07098b32")
+	)
+	(polyline
+		(pts
+			(xy 210.82 292.1) (xy 281.94 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "e8c9c5b4-60de-4b54-9158-aeb8c9bcc9fb")
+	)
+	(polyline
+		(pts
+			(xy 558.165 250.825) (xy 560.705 250.825)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "e90ab0f5-c5d1-4801-81a1-5d98e313c91b")
+	)
+	(polyline
+		(pts
+			(xy 162.56 96.52) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e988aee4-b102-4adf-9cee-613f7af2648a")
+	)
+	(polyline
+		(pts
+			(xy 381 162.56) (xy 378.46 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4162e8-1b35-4328-9099-9f236f5ea5c9")
+	)
+	(polyline
+		(pts
+			(xy 218.44 267.97) (xy 222.25 267.97)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 0 255 0 1)
+		)
+		(uuid "ec4777f5-1490-467a-a40a-7ed9b262d1ea")
+	)
+	(polyline
+		(pts
+			(xy 416.56 281.94) (xy 416.56 287.02)
+		)
+		(stroke
+			(width 0.5)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "ecad57d4-e471-48b7-9308-525a2b83b0fc")
+	)
+	(polyline
+		(pts
+			(xy 210.82 177.8) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee728e7b-0f67-41eb-bfca-e3438846c0b4")
+	)
+	(polyline
+		(pts
+			(xy 96.52 96.52) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb13dd-5a9c-4c62-85f2-e97d882e0f57")
+	)
+	(polyline
+		(pts
+			(xy 474.98 210.82) (xy 474.98 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d81f6c-5536-4555-97ac-9d2e30c29e69")
+	)
+	(polyline
+		(pts
+			(xy 170.18 142.24) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d3dcea-d99d-46f8-aad6-e81a621e941e")
+	)
+	(polyline
+		(pts
+			(xy 485.14 238.76) (xy 535.94 238.76)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "f4d7ceaf-fb91-418a-8919-c1f7e2b608e9")
+	)
+	(polyline
+		(pts
+			(xy 231.14 119.38) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54ce63e-18fd-49b2-8dfc-0858f4b78a77")
+	)
+	(polyline
+		(pts
+			(xy 86.36 292.1) (xy 182.88 292.1)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "f5b1f1c3-c479-40e9-9f3f-8115a59efb66")
+	)
+	(polyline
+		(pts
+			(xy 406.4 160.02) (xy 406.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cc15ca-88e1-46db-924d-ce640269a728")
+	)
+	(polyline
+		(pts
+			(xy 408.94 281.94) (xy 408.94 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7afeb57-f3a0-4bdf-b3f2-bdd4e88833be")
+	)
+	(polyline
+		(pts
+			(xy 210.82 144.78) (xy 218.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86de149-a9cf-4367-ac71-95ac88a9e03b")
+	)
+	(polyline
+		(pts
+			(xy 528.32 185.42) (xy 528.32 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2f670a-b13e-4293-85ab-bfa1b8b4b4d4")
+	)
+	(polyline
+		(pts
+			(xy 210.82 289.56) (xy 182.88 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa662ba-a3f4-4589-9cea-dc045b182b0c")
+	)
+	(polyline
+		(pts
+			(xy 416.56 96.52) (xy 416.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5a4a2e-c063-468a-9fff-0ee8534e7df7")
+	)
+	(rectangle
+		(start 144.78 86.36)
+		(end 162.56 93.98)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08ede636-59c1-4e16-9695-ca12ea9edb44)
+	)
+	(rectangle
+		(start 528.32 195.58)
+		(end 535.94 220.98)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 126cc957-8d70-4a7e-aecf-e7f8a3d983bc)
+	)
+	(rectangle
+		(start 457.2 275.59)
+		(end 472.44 281.94)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d8a9379-5f62-489d-9b3f-07c1c046ea96)
+	)
+	(rectangle
+		(start 441.96 86.36)
+		(end 459.74 93.98)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23146617-9d51-436f-b555-2d569d405ec5)
+	)
+	(rectangle
+		(start 218.44 119.38)
+		(end 226.06 144.78)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 27c66870-d7dd-4315-87fa-4516e2d9b7e3)
+	)
+	(rectangle
+		(start 265.43 275.59)
+		(end 283.21 281.94)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c4c3587-d9b1-4087-81af-94ff7ce6c3a5)
+	)
+	(arc
+		(start 149.86 142.24)
+		(mid 155.8131 127.8731)
+		(end 170.18 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47b7ac5c-37bc-4b77-8fd2-f1b1fea6a140)
+	)
+	(rectangle
+		(start 210.82 144.78)
+		(end 185.42 152.4)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4a68ed8f-9982-4af9-8343-b600208c67b3)
+	)
+	(arc
+		(start 210.82 177.8)
+		(mid 192.8595 170.3605)
+		(end 185.42 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bb744d2-5643-4756-bada-549fdb8df6bb)
+	)
+	(rectangle
+		(start 170.18 142.24)
+		(end 177.8 121.92)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ce0e52b-6231-4893-be2d-6d7a6f03c38d)
+	)
+	(arc
+		(start 149.86 142.24)
+		(mid 155.8131 127.8731)
+		(end 170.18 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b66d5e6-88e9-4ad7-a26b-ad9f78f85d9b)
+	)
+	(arc
+		(start 452.12 195.58)
+		(mid 459.5595 177.6195)
+		(end 477.52 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7e1ace98-366d-4406-8fc9-c97099157087)
+	)
+	(rectangle
+		(start 528.32 167.64)
+		(end 535.94 185.42)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80ec8748-764c-4b58-ab57-d44046dacab2)
+	)
+	(rectangle
+		(start 477.52 195.58)
+		(end 485.14 170.18)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81e9addc-d5e8-4b05-93da-b7f783b7ac45)
+	)
+	(arc
+		(start 434.34 129.54)
+		(mid 452.3005 136.9795)
+		(end 459.74 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8626be03-a8a8-490d-bc06-d0f6ecbaaccb)
+	)
+	(rectangle
+		(start 289.56 284.48)
+		(end 317.5 292.1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 96a3760c-542c-43af-8d0e-05f70994e5c5)
+	)
+	(rectangle
+		(start 218.44 119.38)
+		(end 226.06 144.78)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a65632de-ecf0-42d9-bb89-47f97354246a)
+	)
+	(arc
+		(start 251.46 119.38)
+		(mid 244.0205 137.3405)
+		(end 226.06 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac4dcdf6-27b7-4b9b-8c3d-b775ae61fb05)
+	)
+	(rectangle
+		(start 381 284.48)
+		(end 408.94 292.1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac526361-597d-4eb0-abcc-5d6819858983)
+	)
+	(rectangle
+		(start 182.88 284.48)
+		(end 210.82 292.1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af97d49a-1eb9-4ecc-849a-db98ee18ba55)
+	)
+	(rectangle
+		(start 434.34 162.56)
+		(end 459.74 154.94)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0d4e14d-0599-4c12-bfc3-ab6fded846ac)
+	)
+	(rectangle
+		(start 434.34 162.56)
+		(end 459.74 154.94)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b71789da-860a-4862-9a5f-14b4c77eeb16)
+	)
+	(arc
+		(start 502.92 220.98)
+		(mid 510.3595 203.0195)
+		(end 528.32 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c305a634-0835-4718-b196-7ebdf9b3a772)
+	)
+	(rectangle
+		(start 468.63 231.14)
+		(end 474.98 246.38)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da1e25ce-6eac-4f2c-95e0-ff8f58fc3392)
+	)
+	(rectangle
+		(start 226.06 231.14)
+		(end 232.41 254)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid db1691b5-f3f2-4bb7-a905-98ed65c035fe)
+	)
+	(circle
+		(center 233.68 162.56)
+		(radius 5.6796)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e3b77624-ea47-4e1b-a494-abd7c3aa3ae1)
+	)
+	(rectangle
+		(start 477.52 256.54)
+		(end 485.14 274.32)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e691d364-836e-4f3b-bff3-6acefd970008)
+	)
+	(rectangle
+		(start 335.28 275.59)
+		(end 373.38 281.94)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5db09c2-28cd-494d-9378-75ce8cf1d0d0)
+	)
+	(text "FeZn 10mm2\n"
+		(exclude_from_sim no)
+		(at 546.735 257.175 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a7c1ba2-77ee-4039-8fa2-78757209d747")
+	)
+	(text "CYKY-J 3x10mm2"
+		(exclude_from_sim no)
+		(at 501.65 257.175 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "72d714cd-329c-4005-a4d4-b1b4581b3160")
+	)
+	(symbol
+		(lib_id "Wiring:PE")
+		(at 471.17 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "058dded9-8998-4452-9579-416735887317")
+		(property "Reference" "~7"
+			(at 471.17 250.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 471.17 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 471.17 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 471.17 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 471.17 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "~7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:PE")
+		(at 184.15 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa3449d-b810-4d05-9b83-4adbb71e6c04")
+		(property "Reference" "~5"
+			(at 184.15 99.441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "~5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 255.27 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b6d8965-f1ab-487e-9c45-a14e3d7ddbbf")
+		(property "Reference" "E14"
+			(at 259.08 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 255.27 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 255.27 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7d8c08-d002-41b6-ba5f-c7fd9e5a70ec")
+		(property "Reference" "E13"
+			(at 259.08 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 255.27 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 191.77 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2438e4f0-21b0-477d-9318-29ca828513b2")
+		(property "Reference" "E8"
+			(at 195.58 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 494.03 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26d20ba1-c03d-4b41-8e00-b451c8edfff3")
+		(property "Reference" "X21"
+			(at 497.84 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 494.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 494.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 494.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 494.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 474.98 234.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b77d47d-8215-4266-ac68-78ca99607882")
+		(property "Reference" "X19"
+			(at 464.82 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 474.98 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 474.98 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 474.98 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 474.98 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 393.7 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b0de47-8bdd-4439-b988-30c97d1c8eb1")
+		(property "Reference" "E18"
+			(at 397.51 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 393.7 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:PE")
+		(at 105.41 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341dc8b9-d3b5-4fbb-8496-e30a931ab7d5")
+		(property "Reference" "~4"
+			(at 105.41 136.271 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "~4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 218.44 259.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37332b2e-d271-4fd9-bd71-682adaee190c")
+		(property "Reference" "X5"
+			(at 208.28 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 394.97 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3779cd11-6c24-41a3-a2d4-4b058800abc0")
+		(property "Reference" "E19"
+			(at 393.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 394.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 127 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fa0334d-2ad8-4283-a2be-307629a03500")
+		(property "Reference" "E5"
+			(at 130.81 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 127 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:PE")
+		(at 246.38 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4249fbfa-8710-488e-8fa6-082004c38772")
+		(property "Reference" "~6"
+			(at 246.38 160.401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "~6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_6")
+		(at 491.49 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f58e182-ebcf-4d93-99d1-708fb49518f9")
+		(property "Reference" "Q13"
+			(at 497.84 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 491.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 491.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 429.26 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530ed6fd-d6e2-4855-bed4-e00c620bf3c9")
+		(property "Reference" "E21"
+			(at 433.07 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 429.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 346.71 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f67b1d-e67c-4349-a5d8-f24c7bced3df")
+		(property "Reference" "X11"
+			(at 350.52 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 346.71 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 461.01 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "576ea25f-3f9b-4521-9c20-031593539261")
+		(property "Reference" "X17"
+			(at 460.375 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 461.01 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 461.01 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 461.01 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 461.01 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 307.34 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3c0dde-552f-43af-abe1-ad55ed0f6650")
+		(property "Reference" "E17"
+			(at 311.15 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 307.34 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f265613-fb0e-4186-9af5-42f544adaa48")
+		(property "Reference" "X3"
+			(at 143.51 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 449.58 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68abf31e-a4a4-4a93-83ac-af8c1955d81b")
+		(property "Reference" "E23"
+			(at 453.39 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 449.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 449.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 449.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 339.09 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d36144-e6c7-44ba-874c-60fdacf8e3c9")
+		(property "Reference" "X10"
+			(at 351.79 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 339.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Data_outlet")
+		(at 218.44 267.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ab7532d-7693-46a0-b488-ec181043f9a0")
+		(property "Reference" "XC2"
+			(at 208.28 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "XC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 198.12 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b6a61d-e60e-465e-882a-662ebd0743c0")
+		(property "Reference" "E10"
+			(at 201.93 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 255.27 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a0f2fea-070e-468c-8762-d87684e380d9")
+		(property "Reference" "E12"
+			(at 259.08 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 127 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bdca512-884a-46be-9df0-6bb0a9da9fb8")
+		(property "Reference" "E6"
+			(at 130.81 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 127 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_1")
+		(at 179.07 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d571ae6-720c-443a-9d8a-d0125eb95cff")
+		(property "Reference" "Q6"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_1")
+		(at 181.61 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d75dc2-f52b-40fa-9bb3-c5061bd30a3f")
+		(property "Reference" "Q7"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 452.12 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92443db6-1561-4724-997a-e43794bcda05")
+		(property "Reference" "E25"
+			(at 455.93 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 452.12 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 452.12 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939a2443-266d-4f58-b20e-9595da8c2fbc")
+		(property "Reference" "E24"
+			(at 455.93 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 452.12 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 226.06 242.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97605110-8e89-4cf7-bf13-5885bc75c2eb")
+		(property "Reference" "X6"
+			(at 232.41 243.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 408.94 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a16af9b-2610-401d-9838-6bebc9f1629a")
+		(property "Reference" "X14"
+			(at 401.32 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 408.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 218.44 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a39f3ef8-f3f6-4c3d-859d-a17f9b9b3608")
+		(property "Reference" "X4"
+			(at 213.36 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 218.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Fan")
+		(at 416.56 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52d8c51-53cd-42bc-90cb-ae1f7b42aa76")
+		(property "Reference" "E20"
+			(at 415.29 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 416.56 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 416.56 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_5")
+		(at 234.95 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa55cb00-05c1-43e7-8ee6-d331c651fae9")
+		(property "Reference" "Q8"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 361.95 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa87c7e5-357b-4a24-9171-790211999016")
+		(property "Reference" "X13"
+			(at 365.76 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 361.95 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_6")
+		(at 170.18 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b528661a-eddf-44eb-9e54-64b0452e37af")
+		(property "Reference" "Q5"
+			(at 168.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Data_outlet")
+		(at 369.57 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6efcee3-fa9e-4ce7-ad50-fed4bd0b5708")
+		(property "Reference" "XC4"
+			(at 367.03 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 369.57 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "XC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_6")
+		(at 521.97 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b70436b1-2eac-4777-a5f1-c2ff357de017")
+		(property "Reference" "Q26"
+			(at 528.32 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 521.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 521.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 521.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 521.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 468.63 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b71e1142-ede9-4fac-bc9c-d602c6316076")
+		(property "Reference" "X18"
+			(at 466.09 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 468.63 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 468.63 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 429.26 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba9872d7-2e34-4dc5-8d04-6291da89570c")
+		(property "Reference" "E22"
+			(at 433.07 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 429.26 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 198.12 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb34588d-f7f1-4b6c-9b74-72a5f2044483")
+		(property "Reference" "E11"
+			(at 201.93 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 457.2 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbe8ee33-d916-40db-96fc-15c63ec0835b")
+		(property "Reference" "X16"
+			(at 461.01 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 457.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 457.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 506.73 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc38066d-0ddf-427a-9c4e-f144c8c858c7")
+		(property "Reference" "E26"
+			(at 510.54 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 506.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 278.13 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc8d3681-def1-4f5c-8a71-2dc364f54cb4")
+		(property "Reference" "X9"
+			(at 281.94 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 278.13 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 226.06 250.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c327cab5-0657-43ab-b2ab-1108c5622a8d")
+		(property "Reference" "X7"
+			(at 233.68 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 191.77 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c35d242a-c22d-43f0-97dd-d575cef8b3ba")
+		(property "Reference" "E9"
+			(at 195.58 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet_3P")
+		(at 422.91 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56be8b3-4182-452b-b544-97c3ab7a66df")
+		(property "Reference" "X15"
+			(at 426.72 279.0486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 422.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 422.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 422.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 422.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_1")
+		(at 429.26 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b1cc18-4c6f-4fbb-a65b-c44662d9e411")
+		(property "Reference" "Q10"
+			(at 435.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 429.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 429.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_1")
+		(at 402.59 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbb82834-8dfd-4058-99bd-f857422f8051")
+		(property "Reference" "Q9"
+			(at 396.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 402.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 402.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 119.38 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2a1148-7396-4338-89c3-e615a90d0c1f")
+		(property "Reference" "E4"
+			(at 123.19 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 307.34 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d15c8a5b-efde-407a-883b-bc7cd1ac7f01")
+		(property "Reference" "E16"
+			(at 311.15 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 307.34 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 520.7 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ec8281-cd2b-40f1-b736-49c64e54d0d1")
+		(property "Reference" "X22"
+			(at 524.51 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 520.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 520.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 520.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 520.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 307.34 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3757b0b-f262-4300-94c1-d843d9a5dbc0")
+		(property "Reference" "E15"
+			(at 311.15 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 307.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_6")
+		(at 459.74 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d540d459-2949-4973-a658-d1f110ff7b84")
+		(property "Reference" "Q11"
+			(at 458.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 459.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 459.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 459.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 459.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 474.98 242.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a62adc-1e76-457b-b37d-4b38d5d64c06")
+		(property "Reference" "X20"
+			(at 476.25 243.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 474.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 474.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 474.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 474.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_wall")
+		(at 535.94 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9b99cf3-2a92-43e8-8fbc-e36a5e307103")
+		(property "Reference" "E62"
+			(at 545.465 208.915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 541.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 541.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 541.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 535.94 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 354.33 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0d4713-29d7-44e0-b1d0-002f76853358")
+		(property "Reference" "X12"
+			(at 358.14 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 354.33 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:PE")
+		(at 105.41 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dec10fba-7bcb-47e3-8ef7-0223eecc516f")
+		(property "Reference" "~3"
+			(at 105.41 104.521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "~3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 156.21 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df931ce4-d6fb-4327-9825-8cad7123ebb1")
+		(property "Reference" "E7"
+			(at 160.02 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Outlet")
+		(at 270.51 281.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1b3ea86-4203-49da-81d6-76f4cc8b4871")
+		(property "Reference" "X8"
+			(at 273.05 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Data_outlet")
+		(at 226.06 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6ff2f92-094e-4961-a0d9-09a8f22473fd")
+		(property "Reference" "XC3"
+			(at 233.68 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "XC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Switch_1")
+		(at 468.63 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9807a08-7e68-4b19-ae47-9d64a9a95aea")
+		(property "Reference" "Q12"
+			(at 467.36 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 468.63 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:HR")
+		(at 519.43 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee70be81-0058-4a57-8c05-d9d4e0532ae2")
+		(property "Reference" "HR2"
+			(at 514.35 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 519.43 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 519.43 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 519.43 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "HR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wiring:Bulb_ceiling")
+		(at 506.73 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3de388b-86cc-449f-973d-5427e69c9681")
+		(property "Reference" "E27"
+			(at 510.54 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 506.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/b7d3f213-9e38-4b84-9cee-5a5a65341565"
+					(reference "E27")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

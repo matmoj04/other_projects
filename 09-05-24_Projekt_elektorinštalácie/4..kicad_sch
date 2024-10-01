@@ -1,0 +1,1186 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "776e7d7d-dc35-4eeb-bc8a-8a876fc6a700")
+	(paper "A4")
+	(title_block
+		(title "Projekt elektroinštalácie rodinného domu")
+		(date "2024-05-09")
+		(rev "1")
+		(comment 4 "001-24")
+		(comment 5 "Konanie stavby: 96901 Banská Štiavnica, Belianska 1770/15")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 197.739 50.419) (xy 198.247 48.387)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "040611a8-3d71-484c-985f-77705870e83b")
+	)
+	(polyline
+		(pts
+			(xy 114.935 22.86) (xy 114.935 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c49ce8-955f-41fe-8244-7600d7e1efdc")
+	)
+	(polyline
+		(pts
+			(xy 139.065 68.58) (xy 191.135 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06893314-5645-4e42-8fe7-c3c2acbbb6b2")
+	)
+	(polyline
+		(pts
+			(xy 160.655 22.86) (xy 160.655 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d0a0a1-1a68-400c-b4e7-6e0b92806bf3")
+	)
+	(polyline
+		(pts
+			(xy 31.115 83.82) (xy 23.495 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d5aa46-27f1-4154-8a97-f5f7e2f65c50")
+	)
+	(polyline
+		(pts
+			(xy 168.275 121.92) (xy 168.275 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b03178a-95a5-4bab-bfee-eb3b0e2bdf71")
+	)
+	(polyline
+		(pts
+			(xy 31.115 99.06) (xy 23.495 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e10ee75-0102-4a0a-bd0b-4d5b8485d754")
+	)
+	(polyline
+		(pts
+			(xy 23.495 60.96) (xy 31.115 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cec60d-ffae-4619-987d-60611c00cbb2")
+	)
+	(polyline
+		(pts
+			(xy 31.115 137.16) (xy 38.735 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1502363f-fd6d-47ae-b52a-283240dd02f3")
+	)
+	(polyline
+		(pts
+			(xy 168.275 45.72) (xy 168.275 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b76dffc-bb26-4a09-9fad-0d2d7016c1de")
+	)
+	(polyline
+		(pts
+			(xy 140.97 99.06) (xy 191.135 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9c2cda-f065-4498-9809-d0abf409d7b1")
+	)
+	(polyline
+		(pts
+			(xy 53.975 45.72) (xy 168.275 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fea345e-6255-40b7-aef9-edbe0618beba")
+	)
+	(polyline
+		(pts
+			(xy 31.115 106.68) (xy 23.495 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208c49bf-b9c8-4552-91e1-2878882c4e16")
+	)
+	(polyline
+		(pts
+			(xy 23.495 45.72) (xy 31.115 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b57a37-138b-4b89-9998-e2ed3d740c2f")
+	)
+	(polyline
+		(pts
+			(xy 31.115 129.54) (xy 23.495 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216510a7-840d-4999-81a4-944f2527f07c")
+	)
+	(polyline
+		(pts
+			(xy 107.315 122.555) (xy 107.315 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235cccf0-e3df-49ed-8eb7-acf1016a3a74")
+	)
+	(polyline
+		(pts
+			(xy 53.975 121.92) (xy 53.975 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f6a189-b45b-4d4f-a4eb-c6747e09eec1")
+	)
+	(polyline
+		(pts
+			(xy 175.895 129.54) (xy 191.135 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26be2f49-c019-45a7-b105-f8f30b57d94f")
+	)
+	(polyline
+		(pts
+			(xy 197.231 24.892) (xy 197.739 22.86)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2ccf1095-a0ee-4d02-988b-13b75e6c085c")
+	)
+	(polyline
+		(pts
+			(xy 142.24 76.2) (xy 191.135 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309ae342-227a-4f54-a2c5-e496b5472393")
+	)
+	(polyline
+		(pts
+			(xy 183.515 137.16) (xy 183.515 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30de94ba-078f-4a21-ac04-42f9086727da")
+	)
+	(polyline
+		(pts
+			(xy 31.115 38.1) (xy 23.495 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a13aca5-5287-48cf-9e54-72132d04951f")
+	)
+	(polyline
+		(pts
+			(xy 137.795 144.78) (xy 137.795 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7fb739-4eaf-4511-a4bb-adc89f3bb29f")
+	)
+	(polyline
+		(pts
+			(xy 53.975 22.86) (xy 53.975 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfbe99b-e51e-4851-97e1-b69de1c2cf7b")
+	)
+	(polyline
+		(pts
+			(xy 31.115 76.2) (xy 23.495 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406f3a91-eed2-49e3-8dc0-64f676cb17cc")
+	)
+	(polyline
+		(pts
+			(xy 168.275 121.92) (xy 191.135 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42afe1fb-dfe1-494a-aefc-274fee7bdc51")
+	)
+	(polyline
+		(pts
+			(xy 130.175 22.86) (xy 130.175 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43612f7f-da19-4284-930f-f18ce6de001f")
+	)
+	(polyline
+		(pts
+			(xy 168.275 22.86) (xy 168.275 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4506166e-cef1-4aa1-9caa-705644fec295")
+	)
+	(polyline
+		(pts
+			(xy 38.735 22.86) (xy 38.735 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fa1611-751d-4a68-9859-6df35651ea1d")
+	)
+	(polyline
+		(pts
+			(xy 121.92 53.34) (xy 191.135 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476e0962-c644-45fa-b1fe-7d297d737403")
+	)
+	(polyline
+		(pts
+			(xy 31.115 45.72) (xy 53.975 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cc8848-df78-4e2e-92ad-23809d9efb6a")
+	)
+	(polyline
+		(pts
+			(xy 197.739 50.419) (xy 197.231 48.387)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4929b80c-85cd-4116-9dbf-64eac96cb967")
+	)
+	(polyline
+		(pts
+			(xy 31.115 114.3) (xy 84.455 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a26ce43-e519-4f79-8eae-9f56255ff343")
+	)
+	(polyline
+		(pts
+			(xy 143.51 83.82) (xy 191.135 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b256ff0-d759-421a-add2-45d5ac06ba05")
+	)
+	(polyline
+		(pts
+			(xy 23.495 68.58) (xy 31.115 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7c5320-8eda-4e1d-9f07-6cdd14730aa8")
+	)
+	(polyline
+		(pts
+			(xy 153.035 22.86) (xy 153.035 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff52186-d31d-4192-a462-23169274c329")
+	)
+	(polyline
+		(pts
+			(xy 69.215 22.86) (xy 69.215 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52792aac-d766-4933-85d9-3f15b20fb518")
+	)
+	(polyline
+		(pts
+			(xy 107.315 22.86) (xy 107.315 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5416c9e3-df0c-4853-98e6-cd55ef20e93f")
+	)
+	(polyline
+		(pts
+			(xy 175.895 22.86) (xy 175.895 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59af6cc2-b3f6-41cc-9f22-aea5a0284778")
+	)
+	(polyline
+		(pts
+			(xy 132.715 60.96) (xy 191.135 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be9044b-ad2b-46b5-95c1-359a2c61a1b7")
+	)
+	(polyline
+		(pts
+			(xy 107.315 22.86) (xy 200.66 22.86)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5c9de98a-678d-4fff-b48a-192da3d0f7d1")
+	)
+	(polyline
+		(pts
+			(xy 168.275 45.72) (xy 191.135 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1b6f45-340c-4dc0-a790-6a7d21aeb510")
+	)
+	(polyline
+		(pts
+			(xy 46.355 129.54) (xy 46.355 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618a8390-d3dc-44f9-ade0-076c4d9d346a")
+	)
+	(polyline
+		(pts
+			(xy 31.115 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6226bb39-c3f5-412f-9366-3a6ec4ca3e2d")
+	)
+	(polyline
+		(pts
+			(xy 23.495 30.48) (xy 31.115 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630e2747-3ba7-494f-8460-b661838a4690")
+	)
+	(polyline
+		(pts
+			(xy 31.115 144.78) (xy 23.495 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e2093e-90d2-4021-ab50-d7e4e4fbf381")
+	)
+	(polyline
+		(pts
+			(xy 122.555 22.86) (xy 122.555 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65babc48-a84f-495b-9ea8-fb0dfbcc4f2f")
+	)
+	(polyline
+		(pts
+			(xy 31.115 91.44) (xy 23.495 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680b7c3e-4b2f-4387-b058-5d069552192b")
+	)
+	(polyline
+		(pts
+			(xy 137.16 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b6b65b-4005-4518-b183-1eb745a20935")
+	)
+	(polyline
+		(pts
+			(xy 175.895 38.1) (xy 191.135 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa48567-2043-4b27-9f91-7704e1e6892c")
+	)
+	(polyline
+		(pts
+			(xy 31.115 129.54) (xy 46.355 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d71d412-93af-46e6-a368-7bf298e8e215")
+	)
+	(polyline
+		(pts
+			(xy 183.515 22.86) (xy 183.515 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed89b57-d867-4a24-8a1b-67b327e13ac5")
+	)
+	(polyline
+		(pts
+			(xy 23.495 22.86) (xy 31.115 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72628065-757e-4596-8747-c86069368b8a")
+	)
+	(polyline
+		(pts
+			(xy 31.115 60.96) (xy 81.915 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bbce5c-2cde-4876-bf1f-ca261cd582f7")
+	)
+	(polyline
+		(pts
+			(xy 31.115 121.92) (xy 53.975 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734acabb-39e3-4793-9c9f-5acabcedcd1a")
+	)
+	(polyline
+		(pts
+			(xy 130.175 114.3) (xy 191.135 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73618fe0-bc1b-43d8-aeb6-5df30fad2e2a")
+	)
+	(polyline
+		(pts
+			(xy 183.515 137.16) (xy 191.135 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75909cca-5d18-487d-a39c-ffd5a7348279")
+	)
+	(polyline
+		(pts
+			(xy 99.695 121.92) (xy 99.695 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cb0fc7-b8a4-4327-85c5-b6f83f109f0e")
+	)
+	(polyline
+		(pts
+			(xy 183.515 30.48) (xy 191.135 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2021fb-b3b8-4b9a-a672-1c10c99490e9")
+	)
+	(polyline
+		(pts
+			(xy 99.695 22.86) (xy 99.695 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c205899-3016-4a5c-a9eb-c34b8150575c")
+	)
+	(polyline
+		(pts
+			(xy 130.175 144.78) (xy 130.175 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbdb3f8-afe3-4df5-8e26-e989a29c540b")
+	)
+	(polyline
+		(pts
+			(xy 61.595 22.86) (xy 61.595 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802952d5-2877-4f66-aaf8-3a5bdf91dc5d")
+	)
+	(polyline
+		(pts
+			(xy 84.455 22.86) (xy 84.455 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836b2599-f18d-4c11-88cf-2940a4646d5f")
+	)
+	(polyline
+		(pts
+			(xy 145.415 22.86) (xy 145.415 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869892fe-b9cd-4d4d-8c07-f228311f2679")
+	)
+	(polyline
+		(pts
+			(xy 76.835 22.86) (xy 76.835 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc6b21e-d0f9-43c5-8c42-8c4c2e1a7250")
+	)
+	(polyline
+		(pts
+			(xy 92.075 119.38) (xy 92.075 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3fc275-246b-40ea-b6de-8784e7712bba")
+	)
+	(polyline
+		(pts
+			(xy 84.455 114.3) (xy 84.455 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca6d30d-a761-4951-b96f-10e943e319a5")
+	)
+	(polyline
+		(pts
+			(xy 31.115 91.44) (xy 71.755 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d358bfe-5d1d-4b3b-8276-d4325b66b657")
+	)
+	(polyline
+		(pts
+			(xy 31.115 114.3) (xy 23.495 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eba4188-7579-4884-909a-84d496c3dd23")
+	)
+	(polyline
+		(pts
+			(xy 114.935 121.92) (xy 114.935 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5e8e54-647c-4ec8-bcd5-81f418da26df")
+	)
+	(polyline
+		(pts
+			(xy 31.115 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a374abc0-5c3a-420f-90cd-6d9f3944261d")
+	)
+	(polyline
+		(pts
+			(xy 31.115 83.82) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f17630-5229-4cac-a713-0cace66508d6")
+	)
+	(polyline
+		(pts
+			(xy 23.495 53.34) (xy 31.115 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d6c9be-c93f-4e22-932c-2beccae90faa")
+	)
+	(polyline
+		(pts
+			(xy 23.495 144.78) (xy 23.495 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d01c02-6b3a-4e19-896e-8811b49bc686")
+	)
+	(polyline
+		(pts
+			(xy 122.555 119.38) (xy 122.555 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d6afba-5265-4ea1-b89b-21de4e7bb75d")
+	)
+	(polyline
+		(pts
+			(xy 142.875 91.44) (xy 191.135 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba595619-9040-400c-b8e7-b592bd1ee197")
+	)
+	(polyline
+		(pts
+			(xy 113.665 121.92) (xy 168.275 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff50615-8d24-4deb-89a6-034c52366a9f")
+	)
+	(polyline
+		(pts
+			(xy 31.115 38.1) (xy 46.355 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4aa6fdd-e696-492c-b625-71eeb7ba61f6")
+	)
+	(polyline
+		(pts
+			(xy 175.895 129.54) (xy 175.895 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75a6745-de85-47a1-b2de-ca1c56c520a5")
+	)
+	(polyline
+		(pts
+			(xy 76.835 144.78) (xy 76.835 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5f97f3-ad96-44f6-8c03-bbe2f5f7942f")
+	)
+	(polyline
+		(pts
+			(xy 31.115 76.2) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb166f3c-495d-4788-9b1d-2803622d0a84")
+	)
+	(polyline
+		(pts
+			(xy 31.115 68.58) (xy 75.565 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedaf440-fead-41b9-82a3-2a6bcf3a04e1")
+	)
+	(polyline
+		(pts
+			(xy 53.975 121.92) (xy 102.235 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8430d71-5f1d-4a78-9da8-cfa503c416b4")
+	)
+	(polyline
+		(pts
+			(xy 31.115 137.16) (xy 23.495 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1a0949-74e4-4908-92be-78028c6b037a")
+	)
+	(polyline
+		(pts
+			(xy 31.115 30.48) (xy 38.735 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7f6f49-735b-4b73-95e7-8d61fff9fa8f")
+	)
+	(polyline
+		(pts
+			(xy 46.355 22.86) (xy 46.355 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ccbed4-e728-4766-b46b-3f6b8fda423d")
+	)
+	(polyline
+		(pts
+			(xy 198.247 24.892) (xy 197.739 22.86)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e5b60335-7dd6-4096-b7c3-9a43dd289c6e")
+	)
+	(polyline
+		(pts
+			(xy 53.975 45.72) (xy 53.975 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1129477-6c81-4714-b9f6-62ba08b7ead1")
+	)
+	(polyline
+		(pts
+			(xy 38.735 137.16) (xy 38.735 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13b75e7-2a1c-4997-af51-cb2e080477d1")
+	)
+	(polyline
+		(pts
+			(xy 31.115 53.34) (xy 92.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f199e27d-605c-47d9-9aa0-ec452bf0f7e9")
+	)
+	(polyline
+		(pts
+			(xy 92.075 22.86) (xy 92.075 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b11782-6ca0-49d8-8372-ac4375c92ee1")
+	)
+	(polyline
+		(pts
+			(xy 31.115 22.86) (xy 31.115 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8893c88-021d-4fa0-9ecd-c4a395a310d7")
+	)
+	(polyline
+		(pts
+			(xy 137.795 22.86) (xy 137.795 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b00403-9c54-4821-90cd-71ce2b97d807")
+	)
+	(polyline
+		(pts
+			(xy 197.739 22.86) (xy 197.739 50.419)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fa5dde87-083c-44a3-81e6-3b5e79b5efbd")
+	)
+	(polyline
+		(pts
+			(xy 107.315 50.419) (xy 200.533 50.419)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fc8d57ba-7cf9-4c64-b8ae-ddfcac48bf23")
+	)
+	(polyline
+		(pts
+			(xy 31.115 121.92) (xy 23.495 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd464451-0a36-4051-ab4d-2f6f9c657768")
+	)
+	(circle
+		(center 107.315 96.52)
+		(radius 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 11adaf4b-6a25-4e5f-8ab6-963088615729)
+	)
+	(rectangle
+		(start 31.115 22.86)
+		(end 191.135 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19ab9dfe-6853-4f33-8b4d-211ab7780521)
+	)
+	(rectangle
+		(start 46.355 38.1)
+		(end 175.895 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 312b0e9b-971d-463f-8a83-9d274a1337ba)
+	)
+	(circle
+		(center 107.315 86.36)
+		(radius 35.921)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a875cb0-5f5c-43f2-8bce-2a456edfb17a)
+	)
+	(circle
+		(center 117.475 101.6)
+		(radius 5.08)
+		(stroke
+			(width 3)
+			(type default)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 130 45 1)
+		)
+		(uuid 4801919f-7cb7-405d-9aaa-4fa31cbbe5aa)
+	)
+	(circle
+		(center 107.315 88.265)
+		(radius 5.08)
+		(stroke
+			(width 3)
+			(type default)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 130 45 1)
+		)
+		(uuid 7786283e-99ef-490b-bda6-448524ea3cd8)
+	)
+	(rectangle
+		(start 38.735 30.48)
+		(end 183.515 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b662554d-39b9-49cd-9710-0ea37baa30d8)
+	)
+	(circle
+		(center 97.79 101.6)
+		(radius 5.08)
+		(stroke
+			(width 3)
+			(type default)
+			(color 255 255 255 1)
+		)
+		(fill
+			(type color)
+			(color 255 130 45 1)
+		)
+		(uuid ea5df883-428f-4af4-90fe-0ddfe608a83c)
+	)
+	(text "L1"
+		(exclude_from_sim no)
+		(at 105.41 89.535 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "12f3a9a6-45a2-4488-899c-7db63e8c8e19")
+	)
+	(text "L2"
+		(exclude_from_sim no)
+		(at 95.885 102.87 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f598fe6-472f-499c-850b-77368583da51")
+	)
+	(text "Popis kábla\n"
+		(exclude_from_sim no)
+		(at 244.475 27.178 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e5961f7-76a6-4c07-9d2c-6e47b702dc6a")
+	)
+	(text "500"
+		(exclude_from_sim no)
+		(at 203.835 41.275 90)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9340678-439c-4158-bd32-8403e093d11a")
+	)
+	(text "L3"
+		(exclude_from_sim no)
+		(at 115.57 102.87 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdb7aacd-93c4-49fa-aa5b-aa62766b3e74")
+	)
+	(sheet
+		(at 20.955 20.955)
+		(size 185.42 127)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30ab1d3b-953f-482c-a814-f65f6ae01581")
+		(property "Sheetname" "4.1 Trasa prívodu"
+			(at 20.955 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4.1.kicad_sch"
+			(at 20.955 148.5396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "09-05-2024_Projekt_elektorinštalácie"
+				(path "/9555f13b-314b-4c7b-8351-226ce4930623/adc1db55-5dac-404c-8150-3e73f8a79d82"
+					(page "7")
+				)
+			)
+		)
+	)
+)

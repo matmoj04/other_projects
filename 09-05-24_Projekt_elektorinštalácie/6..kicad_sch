@@ -1,0 +1,45 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1c9a6816-38c5-4696-92dc-f811a8c9d110")
+	(paper "A4")
+	(title_block
+		(title "Projekt elektroinštalácie rodinného domu")
+		(date "2024-05-09")
+		(rev "1")
+		(comment 4 "001-24")
+		(comment 5 "Konanie stavby: 96901 Banská Štiavnica, Belianska 1770/15")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 19.05 38.1) (xy 278.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e06ad42-016f-4bc2-9c07-6033223116a4")
+	)
+	(polyline
+		(pts
+			(xy 19.05 30.48) (xy 278.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f338a2e-ccc5-45a9-9fa5-d6e35e1a3b76")
+	)
+	(polyline
+		(pts
+			(xy 278.13 34.29) (xy 19.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1cdb13-fa0a-4ecc-a780-a7f079652a1c")
+	)
+)
